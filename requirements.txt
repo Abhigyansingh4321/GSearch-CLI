@@ -1,5 +1,7 @@
-click>=8.1.8
+click==8.1.8
 rich==13.7.0
 ddgs==9.13.0
 python-dotenv==1.0.1
 requests==2.33.1
+
+These will already get downloaded if they arent installed.

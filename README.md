@@ -4,7 +4,7 @@ A small terminal search tool I built while learning how Python CLI projects are 
 
 `G-Search CLI` lets me search the web from the terminal, open useful results quickly, and experiment with things like command-line UX, packaging, environment variables, fallbacks, and optional API integrations.
 
-It had started as a learning project, but I wanted it to be genuinely usable, not just a demo that looks good bit gets lost in the folders and I never run again.
+It was started as a learning project, but I wanted it to be genuinely usable, not just a demo that looks good but gets lost in the folders and I never run it again.
 
 ## Why I Built It
 

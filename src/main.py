@@ -15,6 +15,7 @@ from .engine import SearchEngine, SearchError
 from .ui import (
     console,
     display_banner,
+    display_picker_help,
     display_results,
     show_error,
     show_status,
@@ -170,14 +171,11 @@ def render_error(message: str, json_output: bool) -> None:
 def handle_interactive_mode(results) -> None:
     """Allows users to select a result by index and open it in their browser."""
 
-    console.print(
-        "\n[dim]Tip: Enter a result number to open it, or type "
-        "[bold red]q[/bold red] to quit.[/dim]"
-    )
+    display_picker_help()
 
     while True:
         choice = console.input(
-            "\n[bold cyan]Select a result index to open: [/bold cyan]"
+            "\n[prompt]Select a result to open[/prompt] [hint](q to quit)[/hint]: "
         ).strip().lower()
 
         if choice in {"q", "exit", "quit"}:

@@ -4,7 +4,7 @@ A small terminal search tool I built while learning how Python CLI projects are 
 
 `G-Search CLI` lets me search the web from the terminal, open useful results quickly, and experiment with things like command-line UX, packaging, environment variables, fallbacks, and optional API integrations.
 
-It started as a learning project, but I wanted it to be genuinely usable, not just a demo that looks good in a folder and is never run again.
+It was started as a learning project, but I wanted it to be genuinely usable, not just a demo that looks good but gets lost in the folders and I never run it again.
 
 ## Why I Built It
 
@@ -20,13 +20,13 @@ This project also gave me a good excuse to understand a few practical things pro
 
 ## Build Note
 
-I used AI tools in a supporting role while polishing parts of this project, especially for cleanup, iteration, and documentation. I still treat the codebase as mine to understand, maintain, and explain, and I only keep changes that make sense to me.
+I usually use AI tools in a supporting role while polishing parts of this project, especially for code cleanup and documentation. I still treat the codebase as mine to understand, maintain, and explain, and I only keep changes that make sense to me.
 
 ## Features
 
 - Search the web directly from the terminal
 - Use DuckDuckGo by default
-- Optionally use Google Custom Search with API credentials
+- Optionally use Google Custom Search with API credentials(good luck finding it, cause i wasn't able to find it anywhere for free)
 - Open the top result instantly with `--lucky`
 - Restrict results to a specific domain with `--site`
 - Print JSON output with `--json-output`
@@ -35,7 +35,7 @@ I used AI tools in a supporting role while polishing parts of this project, espe
 
 ## Before You Start
 
-You need:
+You need to have:
 
 - Python 3.10 or newer
 - an internet connection
